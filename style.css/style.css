@@ -43,7 +43,7 @@
   color: #ffffff;
 }
 
-.blackoveray {
+.new-year-overlay {
   background-image: linear-gradient(#000000, #00000000);
   width: 100%;
   height: 100%;
@@ -76,4 +76,51 @@
   font-size: 48px;
   font-weight: bold;
   margin-bottom: 48px;
+}
+
+
+.welcome-section{
+    width: 1320px;
+    height: 600px;
+    background-image: url("/images/Vectorrr.png");
+    margin: 0px auto 120px auto;
+}
+
+.welcome-section-overlay{
+    background-image: linear-gradient(to right, #000000, #00000000);
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+.welcome-section-container{
+    align-content: center;
+    height: 100%;
+    padding-left: 126px;
+    display: flex;
+    align-items: center;
+    
+}
+.welcome-section-container h1{
+    font-size: 64px;
+    color: #ffffff;
+    letter-spacing: 11px;
+    line-height: 88px;
+    margin-bottom: 24px;
+}
+
+.welcome-section-container p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 48px;
+    width: 697px;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.welcome-section-container a{
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 35px;
+    text-decoration: none;
+    font-size: 20px;
 }
