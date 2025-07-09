@@ -356,6 +356,20 @@ section {
   padding-right: 10px;
 }
 
-hr{
-  color: #ffffff;
+.social-media-logos{
+  display: flex ;
+  margin: 0 auto;
+  padding: 48px;
+  gap: 24px;
+  width: fit-content;
+}
+
+.right-reserved{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.styled-hr{
+  color: #ffffff0e;
 }
